@@ -1,0 +1,60 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "email",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "telefone",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "tipoLugar",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "horario",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "quantasPessoas",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "precisaTroco",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "pagamento",
+      "otherEntityName": "pagamento",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "tipo"
+    },
+    {
+      "relationshipName": "restaurante",
+      "otherEntityName": "restaurante",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nome"
+    }
+  ],
+  "entityType": "domain",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": true,
+  "pagination": "no",
+  "name": "PreenchePedido",
+  "changelogDate": "20210401000001",
+  "skipFakeData": true
+}
+

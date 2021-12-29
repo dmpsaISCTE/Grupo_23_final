@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "horario",
+      "fieldType": "String"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PreenchePedidoProcess",
+  "processEntityName": "PreenchePedidoProcess",
+  "taskBpmnId": "TaskPreencheHorario",
+  "domainEntityName": "PreenchePedido",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreencheHorario",
+  "changelogDate": "20210401000004",
+  "relationships": []
+}
+

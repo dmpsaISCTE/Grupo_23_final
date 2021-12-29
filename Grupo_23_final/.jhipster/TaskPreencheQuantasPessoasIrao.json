@@ -1,0 +1,33 @@
+{
+  "fields": [
+    {
+      "fieldName": "nomeCliente",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "horario",
+      "fieldType": "String",
+      "fieldReadOnly": true
+    },
+    {
+      "fieldName": "quantasPessoas",
+      "fieldType": "String"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PreenchePedidoProcess",
+  "processEntityName": "PreenchePedidoProcess",
+  "taskBpmnId": "TaskPreencheQuantasPessoasIrao",
+  "domainEntityName": "PreenchePedido",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreencheQuantasPessoasIrao",
+  "changelogDate": "20210401000004",
+  "relationships": []
+}
+

@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "fieldName": "estado",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "restaurante",
+      "otherEntityName": "restaurante",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "nome"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PreenchePedidoProcess",
+  "processEntityName": "PreenchePedidoProcess",
+  "taskBpmnId": "TaskPreencheEstadoPedido",
+  "domainEntityName": "PreenchePedido",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreencheEstadoPedido",
+  "changelogDate": "20210401000005"
+}
+

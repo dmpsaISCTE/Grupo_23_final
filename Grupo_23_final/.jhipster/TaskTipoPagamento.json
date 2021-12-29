@@ -1,0 +1,30 @@
+{
+  "fields": [
+    {
+      "fieldName": "precisaTroco",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [
+    {
+      "relationshipName": "pagamento",
+      "otherEntityName": "pagamento",
+      "relationshipType": "many-to-one",
+      "otherEntityField": "tipo"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PreenchePedidoProcess",
+  "processEntityName": "PreenchePedidoProcess",
+  "taskBpmnId": "TaskTipoPagamento",
+  "domainEntityName": "PreenchePedido",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskTipoPagamento",
+  "changelogDate": "20210401000005"
+}
+

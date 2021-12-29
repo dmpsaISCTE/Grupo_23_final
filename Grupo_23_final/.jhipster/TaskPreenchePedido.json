@@ -1,0 +1,23 @@
+{
+  "fields": [
+    {
+      "fieldName": "tipoLugar",
+      "fieldType": "String"
+    }
+  ],
+  "entityType": "user-task-form",
+  "processBpmnId": "PreenchePedidoProcess",
+  "processEntityName": "PreenchePedidoProcess",
+  "taskBpmnId": "TaskPreenchePedido",
+  "domainEntityName": "PreenchePedido",
+  "service": "serviceClass",
+  "dto": "mapstruct",
+  "jpaMetamodelFiltering": false,
+  "readOnly": false,
+  "pagination": "no",
+  "skipFakeData": true,
+  "name": "TaskPreenchePedido",
+  "changelogDate": "20210401000004",
+  "relationships": []
+}
+
